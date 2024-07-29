@@ -40,4 +40,4 @@ jobs:
           context: .
           platforms: linux/arm64, linux/amd64
           push: true
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/docker-sleep:latest
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/sleepy:latest
